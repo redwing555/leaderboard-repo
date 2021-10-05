@@ -1,59 +1,53 @@
+# Leaderboard
+
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Leaderboard
 
-> One paragraph statement about the project.
+![screenshot](./capture.PNG)
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML5
+- CSS3
+- Webpack
+- JavaScript
 
-## Live Demo
+<!-- ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://redwing555.github.io/todo-list/) -->
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
+To get a local copy up and running follow these simple steps.
 
-To get a local copy up and running follow these simple example steps.
+- Clone using SSH git@github.com:redwing555/leaderboard.git
+- Clone using https https://github.com/redwing555/leaderboard.git
 
-### Prerequisites
-
-### Setup
+and run `npm install`
 
 ### Install
 
+to build a the project into `./dist` folder run
+
+`npm run build`
+
 ### Usage
 
-### Run tests
+to start the webpack-dev-server run
 
-### Deployment
-
-
+`npm run serve`
 
 ## Authors
 
-👤 **Author1**
+👤 **Redwing555**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@redwing555](https://github.com/redwing555)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
