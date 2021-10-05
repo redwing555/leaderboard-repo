@@ -28,6 +28,20 @@ To get a local copy up and running follow these simple steps.
 - Clone using SSH git@github.com:redwing555/leaderboard.git
 - Clone using https https://github.com/redwing555/leaderboard.git
 
+and run `npm install`
+
+### Install
+
+to build a the project into `./dist` folder run
+
+`npm run build`
+
+### Usage
+
+to start the webpack-dev-server run
+
+`npm run serve`
+
 ## Authors
 
 👤 **Redwing555**
