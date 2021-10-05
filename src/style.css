@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: rgb(79, 79, 92);
+}
+
+h1:hover {
+  color: #949494 !important;
+  font-weight: 700 !important;
+  text-decoration: underline;
+  transition: all 0.3s ease 0s;
+}
+
+.container {
+  display: flex;
+  gap: 10rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(15%, 25%);
+}
+
+.leaderboard {
+  margin: 5rem 10rem;
+}
+
+.result {
+  margin: 10rem;
+}
+
+.btn {
+  border: none;
+  background: #404040;
+  color: #fff !important;
+  font-weight: 100;
+  padding: 10px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+}
+
+.btn:hover {
+  color: #404040 !important;
+  font-weight: 700 !important;
+  background: rgb(212, 211, 211);
+  -webkit-box-shadow: 0 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.3s ease 0s;
+}
+
+input {
+  box-shadow: rgba(50, 50, 93, 0.25) 0 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0 18px 36px -18px inset;
+}
+
+input[type="text"],
+textarea,
+select {
+  outline: none;
+}
+
+.score-list {
+  list-style: none;
+  border: 0.5px solid gray;
+  padding: 0;
+  height: 10rem;
+  overflow-y: scroll;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.score-list::-webkit-scrollbar-track {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #f5f5f5;
+}
+
+.score-list::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f5f5f5;
+}
+
+.score-list::-webkit-scrollbar-thumb {
+  background-color: #000;
+  border: 2px solid #555;
+}
+
+.score-list li {
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.name {
+  display: inline-block;
+  color: rgb(79, 79, 92);
+  margin-right: 1rem;
+  font-weight: bold;
+}
+
+.score {
+  display: inline-block;
+  font-weight: bold;
+}
+
+#formId {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#formId h2 {
+  color: rgb(79, 79, 92);
+}
+
+.recent-title {
+  display: inline-block;
+  padding-right: 1rem;
+  color: rgb(79, 79, 92);
+}
+
+#submit-score {
+  width: 5rem;
+  margin-left: 7rem;
+}
+
+.refresh {
+  display: inline-block;
+}
+
+.score-input {
+  margin-top: 10rem;
+}
