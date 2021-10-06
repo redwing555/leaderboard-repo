@@ -92,14 +92,14 @@ select {
   border-bottom: 1px solid black;
 }
 
-.name {
+.user {
   display: inline-block;
   color: rgb(79, 79, 92);
   margin-right: 1rem;
   font-weight: bold;
 }
 
-.score {
+.user_score {
   display: inline-block;
   font-weight: bold;
 }
