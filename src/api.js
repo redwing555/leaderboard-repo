@@ -13,6 +13,7 @@ const createGameData = async (gameName) => {
   });
 
   const gameData = await response.json();
+  console.log(gameData);
 
   return gameData;
 };
@@ -34,6 +35,7 @@ const createUserData = async (userName, userScore) => {
   });
 
   const userData = await resp.json();
+  
   return userData;
 };
 
