@@ -13,6 +13,7 @@ const createGameData = async (gameName) => {
   });
 
   const gameData = await response.json();
+  console.log(gameData);
   return gameData;
 };
 
