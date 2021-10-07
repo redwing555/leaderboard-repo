@@ -21,9 +21,17 @@ const loadToDom = async () => {
   const userData = await fetchUserData();
   sortUserDataByScore(userData.result);
 
-  userData.result.forEach((data) => {
+  userData.result.forEach((data, index) => {
     const scoreInfo = document.createElement('li');
-    scoreInfo.innerHTML = `<div class="user">${data.user} : </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div class="user_score">${data.score}</div>`;
+    scoreInfo.innerHTML = `
+    <span class="fa-layers fa-fw">
+    <i class="fas fa-certificate fa-lg"></i>
+    <span class="ranking fa-layers-text fa-inverse" data-fa-transform="shrink-11.5">${index + 1}</span>
+    </span>
+    <div class="user">${data.user.toUpperCase()}  </div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <div class="user_score">${data.score}</div>
+    `;
     list.appendChild(scoreInfo);
   });
 };
