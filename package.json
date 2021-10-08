@@ -1,25 +1,26 @@
 {
-  "name": "leaderboard",
+  "name": "leaderboard-repo",
   "version": "1.0.0",
   "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist",
     "start": "webpack serve --open",
     "watch": "webpack --watch",
     "build": "webpack"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/redwing555/leaderboard.git"
+    "url": "git+https://github.com/redwing555/leaderboard-repo.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/redwing555/leaderboard/issues"
+    "url": "https://github.com/redwing555/leaderboard-repo/issues"
   },
-  "homepage": "https://github.com/redwing555/leaderboard#readme",
+  "homepage": "https://github.com/redwing555/leaderboard-repo#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.3.0",
